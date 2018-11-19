@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HCL ALM:Email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<style>
+table.tt {
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word
+}
+
+table {
+	border-collapse: collapse;
+	width: 30%;
+	font-size: 12px;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+</style>
+
+</head>
+<body style="margin: 20; padding: 0;">
+	<table style="float: left;">
+		<tr>
+			<td bgcolor="#f2f2f2"
+				style="text-align: center; font-size: 15px; font-face: bold;">Open
+				Defects Summary</td>
+		</tr>
+	</table>
+	 <p></p>
+	 <p></p>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+	    <tr>
+		    <td style="padding: 10px 0 10px 0;"><p style="color:red;bgcolor=#feeee">Note: This is an auto-generated mail. Please do not reply to this mail.</p></td>
+
+		</tr>
+        <tr>
+            <td align="center" bgcolor="#000080" style="padding: 10px 0 10px 0;">
+              <p>
+			  <span style="color:#ffff;">
+			  <strong>Email notification {{today}}
+			  </strong>
+			  </span>
+			 
+			  </p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#eaeaea" style="padding: 20px 30px 40px 30px;">
+                <p>Hello,</p>
+                <p>{{body}}</p>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#eaeaea" style="padding: 0px 0px 20px 30px;">
+                <p>Regards,</p>
+                <p>
+			 <strong>
+              <span style="color:red;">HCL</span>
+			      <span style="color:blue;">ALM</span>
+			  </strong>
+				</p>
+				
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
