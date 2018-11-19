@@ -9,7 +9,7 @@ if "%~1"=="-FIXED_CTRL_C" (
    GOTO :EOF
 )
 color A
-java -jar WatchDog.war
+java -jar ALMAutoReports.war
 terminate_autoanswer = 1
 
 exit
